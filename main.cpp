@@ -53,9 +53,9 @@ int main(int argc, char* argv[]) {
 
         SDL_Vertex vertices[3] = { // the classic colorful triangle
             { // red
-                { centerX, centerY - 120.0f },
-                { 1.0f, 0.0f, 0.0f, 1.0f },
-                { 0.0f, 0.0f }
+                { centerX, centerY - 120.0f }, // pos
+                { 1.0f, 0.0f, 0.0f, 1.0f }, // color in rgba
+                { 0.0f, 0.0f } // tex coord
             }, { // green (bottom right)
                 { centerX + 120.0f, centerY + 80.0f },
                 { 0.0f, 1.0f, 0.0f, 1.0f },
